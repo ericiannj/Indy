@@ -1,0 +1,32 @@
+.register-container {
+  background-color: rgb(241, 240, 241, 0.5);
+  height: 340px;
+  margin-top: 140px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding:30px;
+  border: 2px solid #db460b;
+  border-radius: 5px;
+}
+
+.conten section {
+  margin-left: 50px;
+  display: inline-block;
+
+}
+
+.content {
+  display: flex;
+}
+
+.img2 {
+  height: 200px;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+.form-register {
+  margin-left: 25%;
+}

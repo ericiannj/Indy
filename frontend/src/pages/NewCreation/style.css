@@ -1,0 +1,33 @@
+.new-creation-container {
+  background-color: rgb(241, 240, 241, 0.5);
+  height: 340px;
+  margin-top: 140px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding:30px;
+  border: 2px solid #db460b;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.img2 {
+  height: 200px;
+}
+
+.content {
+  margin-left: 30px;
+}
+
+
+.form-creation {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+.form-creation button {
+  margin-right: 30%;
+}
+
+textarea {
+  border: 2px solid #db460b;
+}
