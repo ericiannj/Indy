@@ -7,7 +7,6 @@ import api from '../../services/api';
 import './style.css';
 import '../../global.css';
 
-//Vai ter a segunda imagem?
 import logoImg from '../../assets/logo.png';
 
 export default function Login() {
@@ -20,8 +19,7 @@ export default function Login() {
     try {
       const response = await api.post('sessions', { name, password });
 
-      //localStorage.setItem('creatorId', response.data.id);
-      localStorage.setItem('creatorPassword', response.data.password);
+      localStorage.setItem('creatorId', response.data.id);
       localStorage.setItem('creatorName', response.data.name);
 
       history.push('/profile');

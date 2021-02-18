@@ -52,7 +52,7 @@ export default function Profile() {
     <div className="profile-container">
       <header>
         <img src={logoImg} alt="Creativity Bank" />
-        <span>Welcome, {creatorName}</span>
+        <span>Welcome, {creatorName} </span>
 
         <Link className="button" to="/creations/new">
           Register new creation

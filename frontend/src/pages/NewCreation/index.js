@@ -46,7 +46,7 @@ export default function NewCreation() {
     <div className="new-creation-container">
       <div className="content">
         <section>
-          <img class="img2" src={logoImg} alt="Creativity Bank" />
+          <img className="img2" src={logoImg} alt="Creativity Bank" />
 
           <h1>Register New Creation</h1>
           <p>Select the type of the creation and describe your plans.</p>
