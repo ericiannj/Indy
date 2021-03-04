@@ -1,6 +1,6 @@
 body {
-  background-image: url("../../assets/background4.jpg");
-  background-size: 1500px;
+  background-image: url('../../assets/background4.jpg');
+  background-size: 1800px;
 }
 
 img {
@@ -11,7 +11,7 @@ img {
   background-color: rgb(241, 240, 241, 0.5);
   text-align: center;
   height: 280px;
-  margin-top: 140px;
+  margin-top: 200px;
   margin-left: 300px;
   margin-right: 300px;
   padding: 30px;
@@ -29,6 +29,3 @@ img {
   font-weight: 500;
   transition: opacity 0.2s;
 }
-
-
-
