@@ -26,7 +26,7 @@ export default function NewCreation() {
       title,
       type,
       description,
-      comments
+      comments,
     };
 
     try {
@@ -38,7 +38,7 @@ export default function NewCreation() {
 
       history.push('/profile');
     } catch (err) {
-      alert('Erro ao cadastrar caso, tente novamente.')
+      alert('Erro ao cadastrar caso, tente novamente.');
     }
   }
 
@@ -58,15 +58,31 @@ export default function NewCreation() {
         </section>
 
         <form class="form-creation" onSubmit={handleNewCreation}>
-          <input placeholder="Creation Title" value={title} onChange={e => setTitle(e.target.value)} />
-          <input placeholder="Creation Type" value={type} onChange={e => setType(e.target.value)} />
-          <textarea placeholder="Description" value={description} onChange={e => setDescription(e.target.value)} />
-          <textarea placeholder="Comments" value={comments} onChange={e => setComments(e.target.value)} />
+          <input
+            placeholder="Creation Title"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+          />
+          <input
+            placeholder="Creation Type"
+            value={type}
+            onChange={(e) => setType(e.target.value)}
+          />
+          <textarea
+            placeholder="Description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+          />
+          <textarea
+            placeholder="Comments"
+            value={comments}
+            onChange={(e) => setComments(e.target.value)}
+          />
           <button className="button" type="submit">
             Register
           </button>
         </form>
       </div>
     </div>
-  )
+  );
 }

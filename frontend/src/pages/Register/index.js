@@ -43,20 +43,40 @@ export default function Register() {
         <section>
           <img className="img2" src={logoImg} alt="The Creativity Bank" />
           <h1>Register</h1>
-          <p>
-            Create you account and let the creativity begin!
-          </p>
+          <p>Create you account and let the creativity begin!</p>
           <Link className="back-link" to="/">
             <FiArrowLeft size={16} color="#E02041" /> Back to home
           </Link>
         </section>
         <form className="form-register" onSubmit={handleRegister}>
-          <input placeholder="Creator Name" value={name} onChange={e => setName(e.target.value)} />
-          <input placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
-          <input placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
+          <input
+            placeholder="Creator Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input
+            placeholder="Password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <input
+            placeholder="Email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
           <div className="input-group">
-            <input placeholder="City" value={city} onChange={e => setCity(e.target.value)} />
-            <input placeholder="Country" value={country} onChange={e => setCountry(e.target.value)} />
+            <input
+              placeholder="City"
+              value={city}
+              onChange={(e) => setCity(e.target.value)}
+            />
+            <input
+              placeholder="Country"
+              value={country}
+              onChange={(e) => setCountry(e.target.value)}
+            />
           </div>
           <button className="button" type="submit">
             Register

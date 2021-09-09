@@ -50,8 +50,8 @@
 
 .profile-container ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 24px;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-gap: 40px;
   list-style: none;
   opacity: 0.8;
 }

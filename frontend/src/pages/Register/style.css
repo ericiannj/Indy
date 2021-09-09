@@ -4,19 +4,22 @@
   margin-top: 140px;
   margin-left: 300px;
   margin-right: 300px;
-  padding:30px;
+  padding: 30px;
   border: 2px solid #db460b;
   border-radius: 5px;
 }
 
-.conten section {
-  margin-left: 50px;
-  display: inline-block;
-
-}
-
 .content {
   display: flex;
+}
+
+.content section {
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.content form {
+  margin-left: 50px;
 }
 
 .img2 {

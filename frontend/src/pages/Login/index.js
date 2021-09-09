@@ -24,7 +24,7 @@ export default function Login() {
 
       history.push('/profile');
     } catch (err) {
-      alert('Login failed, please try again.')
+      alert('Login failed, please try again.');
     }
   }
 
@@ -34,8 +34,17 @@ export default function Login() {
         <img src={logoImg} alt="The Creativity Bank" />
         <form onSubmit={handleLogin}>
           <h1> Indy: The Creativity Bank </h1>
-          <input placeholder="Creator" value={name} onChange={e => setName(e.target.value)} />
-          <input placeholder="Password" type="password" value={password} onChange={e => setPassword(e.target.value)} />
+          <input
+            placeholder="Creator"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input
+            placeholder="Password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
           <button className="button" type="submit">
             Log in
           </button>
@@ -46,5 +55,5 @@ export default function Login() {
         </form>
       </section>
     </div>
-  )
+  );
 }
